@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+
+	<body>
+		<form th:action="@{/importPic/importPic}" method="post" enctype="multipart/form-data">
+			<div>
+				<input type="file" name="file" id="file" />
+			</div>
+			<div>
+				<label for="file">ID</label><input type="text" name="id" id="id" />
+			</div>
+			<div>
+				<input type="submit">提交</input>
+			</div>
+		</form>
+	</body>
+	<script th:src="@{/jquery.min.js}"></script>
+	<script>
+		
+		
+	</script>
+
+</html>
