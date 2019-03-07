@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sly.demo.importpic.mapper.ByteArrayMapper">
 	<!--  -->
-	<update id="importPic" parameterType="com.sly.demo.importpic.model.ByteArray">
+	<update id="importPic" parameterType="ByteArray">
 		UPDATE `act_ge_bytearray` SET BYTES_=#{bytes} WHERE ID_=#{id}
 	</update>
 </mapper>
